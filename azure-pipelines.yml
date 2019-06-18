@@ -21,6 +21,7 @@ steps:
   displayName: 'npm install'
 
 - script: |
+    cd DeltaAdmin
     ng build --prod
   displayName: 'npm build'
 
